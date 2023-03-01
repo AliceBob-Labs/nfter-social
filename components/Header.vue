@@ -37,7 +37,7 @@
               class="menu-item menu-item-type-post_type menu-item-object-page"
               :class="{ 'current-menu-item': page === 'about' }"
               target="_blank"
-              href="https://docs.nfter.social/"
+              href="https://shellteo.gitbook.io/nfter/"
             >
               📖 {{ $t("docs") }}<span class="hover-indicator">
                 <svg
