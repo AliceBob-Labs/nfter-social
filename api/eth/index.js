@@ -21,14 +21,14 @@ if (process.browser) {
         // @todo: handle User denied account access...
       }
       // login
-      window.$nuxt.$store.dispatch('metamask/fetchAccount')
+      // window.$nuxt.$store.dispatch('metamask/fetchAccount')
     } else if (window.web3) {
       // Legacy dapp browsers...
       window.web3 = new Web3(window.web3.currentProvider)
       // Acccounts always exposed
       window.web3.eth.sendTransaction({/* ... */ })
       // login
-      window.$nuxt.$store.dispatch('metamask/fetchAccount')
+      // window.$nuxt.$store.dispatch('metamask/fetchAccount')
     } else {
       // Non-dapp browsers...
       console.log('Non-Ethereum browser detected. You should consider trying MetaMask!')
